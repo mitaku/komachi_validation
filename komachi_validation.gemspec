@@ -7,15 +7,16 @@ require "komachi_validation/version"
 Gem::Specification.new do |s|
   s.name        = "komachi_validation"
   s.version     = KomachiValidation::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Takumi MIURA"]
+  s.email       = ["mitaku1104@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of KomachiValidation."
-  s.description = "TODO: Description of KomachiValidation."
+  s.summary     = "Add Some SexyValidation."
+  s.description = "Add Some SexyValidation."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", "~> 3.2.11"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
 end
