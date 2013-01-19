@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = KomachiValidation::VERSION
   s.authors     = ["Takumi MIURA"]
   s.email       = ["mitaku1104@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/mitaku/komachi_validation"
   s.summary     = "Add Some SexyValidation."
   s.description = "Add Some SexyValidation."
 
